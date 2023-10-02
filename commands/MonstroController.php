@@ -13,9 +13,9 @@ use yii\console\Controller;
 use yii\console\ExitCode;
 
 
-class MigrateController extends Controller
+class MonstroController extends Controller
 {
-    private int $limit = 5000; //всего лимит профилей
+    private int $limit = 5000; //всего лимит профилей при импорте
     private int $partLimit = 100; // группа в селекте, чтоб быстрее было чем больше тем быстрее. Только упор в память идет.
 
     /**
